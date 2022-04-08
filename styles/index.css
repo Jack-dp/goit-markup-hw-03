@@ -1,0 +1,213 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--black);
+}
+
+:root {
+  --blue: #2196f3;
+  --black: #212121;
+  --black-2: #2f303a;
+  --white: #ffffff;
+  --white-2: #ffffff88;
+  --grey: #757575;
+  --lite-grey: #f5f4fa;
+}
+
+.no-line {
+  text-decoration: none;
+}
+
+.no-dot {
+  list-style: none;
+}
+
+/* header */
+.logo-blue {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: var(--blue);
+}
+
+.logo-black {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: var(--black);
+}
+
+.header-link-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: var(--black);
+}
+.header-link-item:hover,
+.header-link-item:focus,
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--blue);
+}
+
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: var(--grey);
+}
+
+.section-hero {
+  background-color: var(--black-2);
+}
+
+.h1-txt {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--white);
+}
+
+.hero-button {
+  background-color: var(--blue);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--white);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* benefits */
+
+.h2-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.19;
+  color: var(--black);
+}
+
+.h3-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  color: var(--black);
+}
+
+.benefits-txt {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--grey);
+}
+
+/* Чем мы занимаемся */
+
+/* наша команда */
+
+.team-section {
+  background-color: var(--lite-grey);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  color: var(--black);
+}
+
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
+  color: var(--grey);
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--black-2);
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+  text-decoration: underline 2px var(--blue);
+}
+
+.footer-logo-blue {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: var(--blue);
+}
+
+.footer-logo-white {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: var(--white);
+}
+
+.footer-adress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white);
+}
+
+.footer-contact {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white-2);
+}
+
+.footer-adress:hover,
+.footer-adress:focus,
+.footer-contact:hover,
+.footer-contact:focus {
+  text-decoration: underline 2px var(--blue);
+}
+
+/* страница Портфолио */
+
+/* кнопки фильтра */
+
+.btn-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--black);
+  border: none;
+  border-radius: 3px;
+  background-color: var(--lite-grey);
+  cursor: pointer;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+/* секция карточек */
+
+.card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--black);
+}
+
+.card-project {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--grey);
+}
